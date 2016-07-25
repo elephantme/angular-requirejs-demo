@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Angular RequireJs Demo</title>
+	<!-- build:css css/main.css -->
+	<link rel="stylesheet" href="css/a.css">
+	<link rel="stylesheet" href="css/b.css">
+	<!-- endbuild -->
+</head>
+<body>
+	<div>Angular+RequireJs+Gulp Demo</div>
+	<header>
+		<ul>
+			<li><a href="#/view1">view1</a></li>
+			<li><a href="#/view2">view2</a></li>
+		</ul>
+	</header>
+	<div class="container" ng-view>
+		
+	</div>
+	<script src="bower_components/requirejs/require.js" data-main="src/main"></script>
+</body>
+</html>
